@@ -1,6 +1,6 @@
 import { BrowserRouter, Link, Route, Routes } from 'react-router-dom';
-import Home from './routes/Home';
-import Detail from './routes/Detail';
+import Home from './routes/home/Home';
+import Detail from './routes/detail/Detail';
 
 
 function App() {

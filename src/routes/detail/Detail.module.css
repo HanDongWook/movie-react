@@ -1,0 +1,59 @@
+.container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.movieContainer {
+    display: flex;
+    gap: 30px;
+}
+
+.posterContainer {
+    flex-shrink: 0;
+}
+
+.poster {
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.title {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.infoBar {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.description {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #666;
+}
+
+.downloadSection {
+    margin-top: 20px;
+}
+
+.downloadButtons {
+    display: flex;
+    gap: 10px;
+}
+
+.downloadButton {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.downloadButton:hover {
+    background-color: #0056b3;
+}
